@@ -1,0 +1,16 @@
+# Accesing packages appending directory to the path
+
+import sys
+sys.path.append('C:\\Users\\David\\Workspace\\template-python-projects')
+
+
+
+# Check python path and copy package
+
+import sys
+print(sys.path)
+
+C:\Users\David\AppData\Local\Continuum\anaconda2\Lib\site-packages
+
+
+

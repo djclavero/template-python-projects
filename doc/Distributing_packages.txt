@@ -1,0 +1,43 @@
+CREATE DISTRIBUTION
+
+# Inside root of the project
+setup.py 
+README.txt
+LICENSE.txt
+/doc
+/bin (scripts)
+
+Every project contain setup.py and packages
+
+Every package contain a __init__.py file and the modules (.py files)
+
+python setup.py --help-commands
+
+python setup.py check
+
+# Create Distribution !!!
+python setup.py sdist
+
+
+UPLOAD your release
+
+C:\Users\David\.pypirc
+[pypi]
+repository = https://upload.pypi.org/legacy/ 
+username = djclavero 
+
+pip install twine
+
+# Upload !!!
+twine upload dist/*
+
+# PyPi Test
+twine upload --repository-url https://test.pypi.org/legacy/ dist/* 
+
+
+INSTALLATION
+
+pip install <package> 									    
+
+
+
