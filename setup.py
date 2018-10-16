@@ -9,7 +9,7 @@ from setuptools import setup
 
 setup(
       name=     'template_python_projects',
-      version=  '1.2', 
+      version=  '1.3', 
       
       # find_packages() can be imported and used here
       packages= ['sound', 'sound.effects', 'sound.formats', 'sound.filters'],
