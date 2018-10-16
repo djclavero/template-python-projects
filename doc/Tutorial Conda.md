@@ -82,7 +82,8 @@ $ conda create  -n myenv  --file 'spec-file.txt'
 $ conda install -n myenv  --file 'spec-file.txt' 
 ```
 
-### Activate enviroment 
+### Activate enviroment
+
 ```
 # List enviroments (default env is 'base')
 $ conda env list
@@ -109,9 +110,13 @@ $ conda install --offline C:\example-package.tar.gz
 
 # pip
 $ pip install C:\example-package.tar.gz
+
+# python
+$ python setup.py install
 ```
 
 Installing via Web:
+
 ```
 # Start Web Server
 $ python -m SimpleHTTPServer 9000
@@ -121,12 +126,14 @@ $ pip install --extra-index-url = http://127.0.0.1:9000/example-package.tar.gz
 ```
 
 Accesing local packages appending the directory project to the path:
+
 ```python
 import sys
 sys.path.append('C:\\Users\\David\\Workspace\\template-python-projects')
 ```
 
 Accesing local packages by copy of the project to the path:
+
 ```python
 import sys
 # print the path 
