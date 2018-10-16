@@ -77,7 +77,7 @@ $ git status -s
 # git diff
 $ git diff -r HEAD <file>
 $ git diff --staged
-$ git diff <hash1> <hash2>
+$ git diff <hash1> <hash2>  # at least 5-hex chars)
 $ git diff <branch1>..<branch2>
 
 # git add

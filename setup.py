@@ -14,7 +14,7 @@ setup(
       # find_packages() can be imported and used here
       packages= ['sound', 'sound.effects', 'sound.formats', 'sound.filters'],
       
-      scripts= ['bin/testing_sound.py'],
+      scripts= ['testing_sound.py'],
       
       author= 'djclavero',
       author_email= 'djclavero@yahoo.com',
