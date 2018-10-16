@@ -29,7 +29,7 @@ $ python setup.py --help-commands
 $ python setup-py --check
 
 # Create distribution
-$ python setup.py sdis
+$ python setup.py sdist
 ```
 
 ## Upload release 

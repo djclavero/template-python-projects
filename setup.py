@@ -20,7 +20,7 @@ setup(
       author_email= 'djclavero@yahoo.com',
       
       license= 'MIT',
-      long_description= open('README.txt').read(),
+      long_description= open('README.md').read(),
       
       keywords = ['projects', 'test'],
       
