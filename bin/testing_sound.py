@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Oct 14 07:41:54 2018
-
-@author: David
+@author: djclavero@yahoo.com
 
 Script for testing 'sound' package
 """
 
+# Projects: contain setup.py and packages 
+# Packages: contain __init__.py and modules (.py files)
 
 from sound.formats import waveread
 

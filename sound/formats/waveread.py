@@ -1,13 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Oct 14 07:26:58 2018
+@author: djclavero@yahoo.com
 
-@author: David
+Python Module
 """
+
+# Projects: contain setup.py and packages 
+# Packages: contain __init__.py and modules (.py files)
 
 # Define a function
 def test_waveread():
-    print('Just answering you call to test_waveread function')
+    print('Just answering your call to test_waveread function')
     
 
 # Define a variable
