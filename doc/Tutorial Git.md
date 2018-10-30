@@ -106,6 +106,8 @@ $ git commit -m "here a description message"
 ```
 # git push
 $ git push origin master
+
+$ git push -f origin master     # flag --force
 ```
 
 ### Download from repository
@@ -225,6 +227,24 @@ $ git checkout master
 $ git merge --no-ff featureX
 $ git branch -d featureX
 ```
+
+## Tips
+
+Returning to an old revision:
+
+```
+# Rewind your HEAD branch to the specific version
+$ git reset --hard <commit id>      
+```
+
+Reset the HEAD to n commits back:
+
+`$ git reset --hard HEAD~1  # Previous commit`
+
+Restoring a version in a new local branch:
+
+`$ git checkout -b old-project-state <hash>   # New branch: old-project-state`
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
