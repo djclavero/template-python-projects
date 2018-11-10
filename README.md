@@ -26,7 +26,7 @@ mp4play.test_mp4play()
 ```
 # Check the package first
 $ python setup.py --help-commands
-$ python setup.py --check
+$ python setup.py check
 
 # Create distribution
 $ python setup.py sdist
