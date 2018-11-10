@@ -1,8 +1,8 @@
-# template-python-projects 
+# [template-python-projects](https://github.org/djclavero/template-python-projects) 
 
 Template Project for Python using git 
 
-by djclavero@yahoo.com |  https://github.org/djclavero/template-python-projects
+by djclavero@yahoo.com 
 
 
 ## Installation
@@ -16,10 +16,10 @@ by djclavero@yahoo.com |  https://github.org/djclavero/template-python-projects
 ## Usage
 
 ```python
-from sound.formats import waveread
+from video.formats import mp4play
 
 # Call function 
-waveread.test_waveread()
+mp4play.test_mp4play()
 ```
 
 ## Create distribution 

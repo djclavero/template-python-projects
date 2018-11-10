@@ -9,12 +9,12 @@ from setuptools import setup
 
 setup(
       name=     'template_python_projects',
-      version=  '1.4', 
+      version=  '1.5', 
       
       # find_packages() can be imported and used here
-      packages= ['sound', 'sound.effects', 'sound.formats', 'sound.filters'],
+      packages= ['video', 'video.players'],
       
-      scripts= ['bin/testing_sound.py'],
+      scripts= ['bin/test_video_pkg.py'],
       
       author= 'djclavero',
       author_email= 'djclavero@yahoo.com',
@@ -22,7 +22,7 @@ setup(
       license= 'MIT',
       long_description= open('README.md').read(),
       
-      keywords = ['projects', 'test'],
+      keywords = ['projects', 'python'],
       
       url= 'https://pypi.org/project/template_python_projects',
       

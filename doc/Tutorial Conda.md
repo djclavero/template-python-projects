@@ -4,6 +4,16 @@ Conda basic commands
 
 by djclavero@yahoo.com 
 
+---
+
+Links:
+
+[Anaconda 3](https://www.anaconda.com/download/)
+
+[Conda documentation](https://conda.io/docs/user-guide/getting-started.html)
+
+---
+
 
 ## Managing Conda
 

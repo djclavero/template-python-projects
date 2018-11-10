@@ -4,6 +4,16 @@ Basic commands for git (Distributed Version Control System)
 
 by djclavero@yahoo.com 
 
+---
+
+Links:
+
+[Git](https://git-scm.com/download/win)
+
+[Pro Git eBook](https://git-scm.com/book/en/v2)
+
+---
+
 
 ## Basics git
 

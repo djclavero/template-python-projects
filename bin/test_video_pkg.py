@@ -2,23 +2,23 @@
 """
 @author: djclavero@yahoo.com
 
-Script for testing 'sound' package
+Script for testing 'video' package
 """
 
 # Projects: contain setup.py and packages 
 # Packages: contain __init__.py and modules (.py files)
 
-from sound.formats import waveread
+from video.players import mp4play 
 
 # Call function
-waveread.test_waveread()
+mp4play.test_video()
 
 # Call variable
-print('EXTENSION is ' + waveread.EXTENSION)
+print('EXTENSION is ' + mp4play.EXTENSION)
 
 # Create object
-soundfile = waveread.WaveFile('violin', 44100)
-soundfile.wavefile_info()
+videofile = mp4play.VideoFile('Pulp Fiction')
+videofile.videofile_info()
 
 
 
