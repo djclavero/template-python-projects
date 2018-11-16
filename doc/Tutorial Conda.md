@@ -21,9 +21,10 @@ Links:
 
 ```
 # Check versions for Conda, Python and Pypi
-$ conda  --version
-$ python --version
-$ pip    --version
+$ conda  --version   # 4.5.11
+$ python --version   # 3.7.0
+$ pip    --version   # 18.1
+$ pip freeze   # Shows versions of all packets installed
 
 # Update versions for Conda, Python and Pypi
 $ conda update conda
@@ -65,10 +66,10 @@ Create enviroment with a specific version of python:
 ```
 # Enviroment with Python 3
 $ conda search python
-$ conda create -n py37 python='3.7.0'
+$ conda create -n py37 python="3.7.0"
 
 # Create env with all packets of anaconda
-$ conda create -n py37 python='3.7.0' anaconda
+$ conda create -n py37 python="3.7.0" anaconda
 ```
 
 Create enviroment with a specific package:
@@ -148,6 +149,19 @@ Accesing local packages by copy of the project to the path:
 import sys
 # print the path 
 print(sys.path)
+```
+
+## pyinstaller (py to exe)
+
+```python
+# Installation
+$ pip install pyinstaller
+
+# Usage
+$ pyinstaller <script.py> 
+$ pyinstaller --onefile <script.py>
+$ pyinstaller -w <script.py>   # no window wonsole
+$ pyinstaller --help
 ```
 
 ## License

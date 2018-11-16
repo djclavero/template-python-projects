@@ -28,8 +28,15 @@ mp4play.test_mp4play()
 $ python setup.py --help-commands
 $ python setup.py check
 
-# Create distribution
+# ¡¡¡ Create distribution !!!!
 $ python setup.py sdist
+
+# (Optional) Binary distribution
+$ python setup.py bdist --formats=wininst
+
+# (Optional) Develop distribution
+$ python setup.py develop
+$ python setup.py develop --uninstall 
 ```
 
 ## Upload release 
@@ -37,7 +44,7 @@ $ python setup.py sdist
 $ twine upload dist/*   # pip install twine (if required)
 ```
 
-### .pypirc file 
+### .pypirc file (c:\Users\David\.pypirc)
 ```
 [pypi]
 repository = https://upload.pypi.org/legacy/
@@ -85,6 +92,10 @@ dist/
 *.egg-info/
 # ignore spyder project files
 .spyproject/
+
+DocuTech/
+Software/
+.ipynb_checkpoints/  # Jypyter
 ```
 
 

@@ -20,7 +20,7 @@ Links:
 ### Version
 
 ```
-git --version
+git --version    # 2.19.1
 git help <command>
 ```
 
